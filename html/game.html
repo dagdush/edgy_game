@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="../sass/main.css" rel="stylesheet" type="text/css">
+    <script src="../js/game.js"></script>
+    <title>edgy_game</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="left-column">
+            <div class="player">
+                <div class="player-icon">
+                    <img src="../images/good/knight%20m-402.jpg">
+                </div>
+                <div class="player-stats"></div>
+            </div>
+        </div>
+        <div class="center-column">
+            <div class="title">Battle</div>
+            <div class="results">
+                <div id="die1" class="dice one">0</div>
+                <div id="die2" class="dice two">0</div>
+                <h2 id="status">0</h2>
+            </div>
+            <div class="control">
+                <button onclick="rollDice()">Hit</button>
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="player-icon">
+                <img src="../images/bad/undead-429.jpg">
+            </div>
+            <div class="player-stats"></div>
+        </div>
+    </div>
+</body>
+</html>

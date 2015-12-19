@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #777;
+}
+.nav-cont {
+    width: 480px;
+    margin: 0 auto;
+
+    a {
+        display: block;
+        width: 100%;
+        background: #fcfcfc;
+        border: 1px solid #ccc;
+        text-align: center;
+        font-size: 22px;
+        text-decoration: none;
+        color: #777;
+        line-height: 200%;
+        margin-bottom: 10px;
+        &:hover {
+            color: #333;
+
+        }
+    }
+}
+@import "game";
+

@@ -1,0 +1,38 @@
+.wrapper {
+    .left-column, .right-column, .center-column {
+        float: left;
+        width: 33.33%;
+        min-height: 500px;
+        outline: 1px solid #e0e0e0;
+
+        .player-icon {
+            float: left;
+        }
+    }
+    .right-column {
+        .player-icon {
+            float: right;
+        }
+    }
+    .center-column {
+        text-align: center;
+
+        .results {
+
+            .dice {
+                float: left;
+                width: 30px;
+                padding: 10px;
+                background: #dcdcdc;
+                font-size: 30px;
+                text-align: center;
+
+                &.two {
+                    float: right;
+                }
+            }
+        }
+
+
+    }
+}

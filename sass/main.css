@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif; }
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #777; }
+
+.nav-cont {
+  width: 480px;
+  margin: 0 auto; }
+  .nav-cont a {
+    display: block;
+    width: 100%;
+    background: #fcfcfc;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 22px;
+    text-decoration: none;
+    color: #777;
+    line-height: 200%;
+    margin-bottom: 10px; }
+    .nav-cont a:hover {
+      color: #333; }
+
+.wrapper .left-column, .wrapper .right-column, .wrapper .center-column {
+  float: left;
+  width: 33.33%;
+  min-height: 500px;
+  outline: 1px solid #e0e0e0; }
+  .wrapper .left-column .player-icon, .wrapper .right-column .player-icon, .wrapper .center-column .player-icon {
+    float: left; }
+.wrapper .right-column .player-icon {
+  float: right; }
+.wrapper .center-column {
+  text-align: center; }
+  .wrapper .center-column .results .dice {
+    float: left;
+    width: 30px;
+    padding: 10px;
+    background: #dcdcdc;
+    font-size: 30px;
+    text-align: center; }
+    .wrapper .center-column .results .dice.two {
+      float: right; }
+
+/*# sourceMappingURL=main.css.map */
